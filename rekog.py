@@ -31,7 +31,7 @@ def recognize_celebrities(photo):
     with open(photo, 'rb') as image:
         res = client.recognize_celebrities(Image={'Bytes': image.read()})
 
-    # now will loop through all celbrity faces that rekognition recognized
+    # now will loop through all celebrity faces that rekognition recognized
     for celebrity in res['CelebrityFaces']:
         # name of recognized celebrity
         name = celebrity['Name']
