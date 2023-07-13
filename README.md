@@ -1,5 +1,6 @@
 # Celebrity-Rekognition-Trailer
 Utilizing AWS Rekognition to showcase possible functionalities
+YouTube: https://www.youtube.com/watch?v=iric7m71y30&t=12s&ab_channel=Kerchow
 ***
 ### Three functionalities demonstrated in rekog.py are: ###
 1. Detecting all celebrities in a given image
